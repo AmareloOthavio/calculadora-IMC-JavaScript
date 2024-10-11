@@ -1,0 +1,126 @@
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+
+h1, h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+header {
+    position: sticky;
+    height: 20vh;
+    background-color: greenyellow;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Primeira seção */
+.secao-calc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 10px 40% 50px 40%;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: #000000b5;
+}
+input {
+    border-radius: 10px;
+    padding: 5px;
+}
+#btnC {
+    align-self: center;
+    border: 3px outset grey;
+    padding: 5px;
+    border-radius: 7px;
+    font-weight: 800;
+}
+
+/* Segunda seção */
+.secao-res {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 10px 10vw 10px 10vw;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: #000000b5;
+    max-width: 80vw;
+}
+.secao-res h2 {
+    align-self: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8em;
+}
+.imagem {
+    align-self: center;
+}
+#classificar {
+    align-self: center;
+    margin: 10px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5em;
+}
+img {
+    border-radius: 10px;
+    max-width: 33vw;
+}
+img:hover {
+    max-width: 60vw;
+}
+.legenda {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+.verd {
+    color: rgb(182, 219, 123);
+}
+.verdC {
+    color: greenyellow;
+}
+.laran {
+    color: orange;
+}
+.verm {
+    color: red;
+}
+
+footer {
+    position: sticky;
+    height: 10vh;
+    background-color: greenyellow;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 1000px) {
+    .secao-calc {
+        margin: 10px 20% 50px 20%;
+    }
+    img {
+        max-width: 66vw;
+    }
+}
